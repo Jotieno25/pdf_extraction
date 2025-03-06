@@ -76,7 +76,7 @@ def process_pdf(pdf_path: str) -> pd.DataFrame:
     return df_combined
 
 def main():
-    pdf_path = "example.pdf"
+    pdf_path = "J23235-Dolphin Sq-Rodney -Beatty house- Domestic sample report-Combined.pdf"
     df_combined = process_pdf(pdf_path)
     # Display the first 21 rows of the combined DataFrame
     print(df_combined.head(21))
